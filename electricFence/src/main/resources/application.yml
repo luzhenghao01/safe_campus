@@ -1,0 +1,17 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    initialSize: 10
+    maxActive: 20
+    maxWait: 60000
+    minEvictableIdleTimeMillis: 25200000
+    minIdle: 10
+    timeBetweenEvictionRunsMillis: 60000
+    url: jdbc:mysql://127.0.0.1:3306/body_park?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  profiles:
+    active: dev
+  application:
+    name: app
