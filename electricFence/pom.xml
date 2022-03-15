@@ -46,10 +46,15 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <!-- fastjson -->
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.47</version>
+      <version>1.2.62</version>
+    </dependency>
+    <!--json 序列化和反序列化-->
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.12</version>
     </dependency>
     <dependency>
       <groupId>mysql</groupId>
